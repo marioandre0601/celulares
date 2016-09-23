@@ -20,4 +20,10 @@ class ProductController extends Controller
     public function update(){
 
     }
+    public function js(){
+        return view('script');
+    }
+    public function js2(){
+        return view('programjs');
+    }
 }
