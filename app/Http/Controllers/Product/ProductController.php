@@ -26,4 +26,7 @@ class ProductController extends Controller
     public function js2(){
         return view('programjs');
     }
+    public function jss(){
+        return view ('jsss');
+    }
 }

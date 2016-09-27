@@ -18,4 +18,5 @@ Route::group(['middleware'=>['web']],function(){
     Route::get('/',['as'=>'index','uses'=>'Product\ProductController@index']);
     Route::get('marca',['as'=>'marcas','uses'=>'Product\ProductController@js']);
     Route::get('jas',['as'=>'js','uses'=>'Product\ProductController@js2']);
+    Route::get('jsss',['as'=>'jsss','uses'=>'Product\ProductController@jss']);
 });

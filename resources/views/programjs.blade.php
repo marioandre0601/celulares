@@ -118,4 +118,29 @@
 
     </script>
 
+    <button onclick="myFunction()">Try it</button>
+
+    <p id="demonnn">Please visit Microsoft!</p>
+
+    <script>
+        function myFunction() {
+            var str = document.getElementById("demonnn").innerHTML;
+            var txt = str.replace("Microsoft","W3Schools");
+            document.getElementById("demonnn").innerHTML = txt;
+        }
+    </script>
+
+    <p id="xd">Pasar a mayuscula</p>
+    <p id = xxx>PASAR A MINUSCULA</p>
+    <button onclick="mayu()">Cambiar a Mayuscula</button>
+    <script>
+        function mayu(){
+            var tex = document.getElementById("xd").innerHTML;
+            document.getElementById("xd").innerHTML= tex.toUpperCase();
+            var txt = document.getElementById("xxx").innerHTML;
+            document.getElementById("xxx").innerHTML = txt.toLowerCase();
+        }
+    </script>
+
+
 @endsection

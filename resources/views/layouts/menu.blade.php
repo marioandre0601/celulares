@@ -16,6 +16,7 @@
                     <li class="active"><a href="#">Productos <span class="sr-only">(current)</span></a></li>
                     <li><a href="{{ route('marcas') }}">Marcas</a></li>
                     <li><a href="{{ route('js') }}">JS</a></li>
+                    <li><a href="{{ route('jsss') }}">JSSS</a></li>
                 </ul>
             </div>
         </div>
