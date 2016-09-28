@@ -29,4 +29,7 @@ class ProductController extends Controller
     public function jss(){
         return view ('jsss');
     }
+    public  function inp(){
+        return view('inp');
+    }
 }

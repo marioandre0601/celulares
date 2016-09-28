@@ -17,6 +17,7 @@
                     <li><a href="{{ route('marcas') }}">Marcas</a></li>
                     <li><a href="{{ route('js') }}">JS</a></li>
                     <li><a href="{{ route('jsss') }}">JSSS</a></li>
+                    <li><a href="{{ route('inp') }}">JSSS</a></li>
                 </ul>
             </div>
         </div>
